@@ -27,14 +27,14 @@ body {
  * Header
  */
 
- .banner-wrap{
+ /* .banner-wrap{
     background-image: url(./assets/banner4.jpg );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    z-index: 1;
- }
+    /* z-index: 1;
+ } 
 
 .overlay{
   z-index: —1;
@@ -45,6 +45,19 @@ body {
   position: absolute;
   top: 0;
 
+} */ 
+
+.banner-wrap{
+  background-image: url("./assets/banner4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay{
+  background-color: rgba(0,0,0,0.6);
+  height: 100%;
+  width: 100%;
 }
 
 .nav-masthead .nav-link {
@@ -64,4 +77,10 @@ body {
 .nav-masthead .active {
   color: #fff;
   border-bottom-color: #fff;
+}
+
+.scrolling {
+  background-color: black;
+  opacity: 80%;
+  transition: all 0.5s;
 }
